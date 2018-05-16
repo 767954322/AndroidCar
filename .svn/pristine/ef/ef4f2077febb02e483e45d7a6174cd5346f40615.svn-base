@@ -1,0 +1,100 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/gumenghao/Documents/svn/AndroidCode/AndroidTuwan/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sq/values-sq.xml",
+            "map": [
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                },
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/gumenghao/Documents/AndroidCode/TWAndroid/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sq/values-sq.xml",
+            "map": [
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                },
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-sq/values-sq.xml",
+            "map": [
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,319,431,518,628,751,832,911,994,1100,1205,1303,1409,1512,1628,1782,1881",
+                        "endColumns": "113,99,111,86,109,122,80,78,82,105,104,97,105,102,115,153,98,80",
+                        "endOffsets": "214,314,426,513,623,746,827,906,989,1095,1200,1298,1404,1507,1623,1777,1876,1957"
+                    }
+                },
+                {
+                    "source": "/Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/res/values-sq/values-sq.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1962",
+                        "endColumns": "100",
+                        "endOffsets": "2058"
+                    }
+                }
+            ]
+        }
+    ]
+}

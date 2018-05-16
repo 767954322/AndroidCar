@@ -1,0 +1,299 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f45332289212e6d644262058d3cd512a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ca1fee53494bec51d2b8f4b6c7861f04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/AndroidManifest.xml:2:1-11:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/ef85a50fa9a9e0e58a5e7ca14a238c1f/AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/0ee495974895b8fd992002406e4c9a77/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/AndroidManifest.xml:2:1-13:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.8.4.aar/6205d3f70e073b480e4cd505cf52ed24/AndroidManifest.xml:2:1-9:12
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.8.4.aar/b17de81abb8c4445cebb7c6bf13ff380/AndroidManifest.xml:2:1-9:12
+MERGED from [com.danikula:videocache:2.7.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-2.7.1.aar/f473f41d7431ba600ce84eb7b4a6a3b9/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.7.1.aar/b0412fdca0f2a4f7f8c6154f1759baec/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.7.1.aar/5dea5c7b15255504ee04ded7d256f172/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.7.1.aar/f489ab47e326cebe3960dbb477ba24d7/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.1.aar/777e28e097a24f6f70076db52741480b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.7.1.aar/178ad2feb4161138e52c8bdcd5f4a034/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/e08c2052135da11a771c611b347d7b5c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/1005a6067c45a8fae5f00648bc7e0047/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7597ea1784166d9eb7293ce6a43e9a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/949a0b0a0621d21a85ab4d73db23da15/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aae440ec9eb656a1cb12fe124c3d6943/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/5b280b5d285e03bd60116c423d541416/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/45468a8651378feb6128602af7b55d5e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/088a87c66e317eb4ad989552cd805a04/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/ab989a47f212a41b1d0e2ad09165d063/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/485967c7d9fcbd7015d8283511f58672/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e097127acf9ef0da014ed695b38eda60/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e336ae1fea55be163a1bead089afe909/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a79a835935def5360341247c6a409907/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+	package
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:1-96:12
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:10:5-76
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:10:22-73
+uses-permission#android.permission.INTERNET
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:11:22-64
+application
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:13:5-94:19
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/AndroidManifest.xml:11:5-20
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/AndroidManifest.xml:11:5-20
+MERGED from [com.danikula:videocache:2.7.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/AndroidManifest.xml:12:5-20
+MERGED from [com.danikula:videocache:2.7.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/AndroidManifest.xml:12:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:20:9-52
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:14:9-38
+activity#com.tuwan.android.home.ui.activity.MainActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:22:9-33:20
+	android:screenOrientation
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:26:13-49
+	android:launchMode
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:25:13-48
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:24:13-74
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:23:13-58
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:27:13-32:29
+action#android.intent.action.MAIN
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:30:27-74
+activity#com.tuwan.android.home.ui.activity.TestVideoListActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:35:9-38:52
+	android:screenOrientation
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:38:13-49
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:37:13-74
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:36:13-67
+activity#com.umeng.socialize.media.WBShareCallBackActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:41:9-46:84
+	android:screenOrientation
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:45:13-49
+	android:exported
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:44:13-37
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:43:13-63
+	android:theme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:46:13-72
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:42:13-77
+activity#com.sina.weibo.sdk.web.WeiboSdkWebActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:47:9-51:67
+	android:windowSoftInputMode
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:51:13-55
+	android:exported
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:50:13-37
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:49:13-63
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:48:13-70
+activity#com.sina.weibo.sdk.share.WbShareTransActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:52:9-60:20
+	android:launchMode
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:54:13-44
+	android:theme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:55:13-83
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:53:13-73
+intent-filter#android.intent.category.DEFAULT+com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:56:13-59:29
+action#com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:57:17-92
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:57:25-89
+category#android.intent.category.DEFAULT
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:58:27-73
+activity#com.tuwan.android.wxapi.WXEntryActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:63:9-67:75
+	android:exported
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:66:13-36
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:65:13-74
+	android:theme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:67:13-72
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:64:13-50
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:69:9-81:20
+	android:launchMode
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:71:13-44
+	android:noHistory
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:72:13-37
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:70:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:73:13-80:29
+action#android.intent.action.VIEW
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:74:17-69
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:74:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:77:17-78
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:77:27-75
+data
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:79:17-59
+	android:scheme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:79:23-56
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:82:9-85:75
+	android:configChanges
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:84:13-74
+	android:theme
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:85:13-72
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:83:13-69
+meta-data#UMENG_APPKEY
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:87:9-89:66
+	android:value
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:89:13-53
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:88:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:90:9-92:39
+	android:value
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml:91:13-41
+uses-sdk
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f45332289212e6d644262058d3cd512a/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f45332289212e6d644262058d3cd512a/AndroidManifest.xml:20:5-43
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jaeger.statusbarutil:library:1.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ca1fee53494bec51d2b8f4b6c7861f04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ca1fee53494bec51d2b8f4b6c7861f04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/AndroidManifest.xml:5:5-7:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/ef85a50fa9a9e0e58a5e7ca14a238c1f/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/ef85a50fa9a9e0e58a5e7ca14a238c1f/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/0ee495974895b8fd992002406e4c9a77/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/0ee495974895b8fd992002406e4c9a77/AndroidManifest.xml:5:5-43
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/AndroidManifest.xml:7:5-9:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.8.4.aar/6205d3f70e073b480e4cd505cf52ed24/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-java:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.8.4.aar/6205d3f70e073b480e4cd505cf52ed24/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.8.4.aar/b17de81abb8c4445cebb7c6bf13ff380/AndroidManifest.xml:5:5-7:41
+MERGED from [tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.4] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.8.4.aar/b17de81abb8c4445cebb7c6bf13ff380/AndroidManifest.xml:5:5-7:41
+MERGED from [com.danikula:videocache:2.7.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.danikula:videocache:2.7.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-2.7.1.aar/f473f41d7431ba600ce84eb7b4a6a3b9/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-2.7.1.aar/f473f41d7431ba600ce84eb7b4a6a3b9/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.7.1.aar/b0412fdca0f2a4f7f8c6154f1759baec/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.7.1.aar/b0412fdca0f2a4f7f8c6154f1759baec/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.7.1.aar/5dea5c7b15255504ee04ded7d256f172/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.7.1.aar/5dea5c7b15255504ee04ded7d256f172/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.7.1.aar/f489ab47e326cebe3960dbb477ba24d7/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.7.1.aar/f489ab47e326cebe3960dbb477ba24d7/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.1.aar/777e28e097a24f6f70076db52741480b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.1.aar/777e28e097a24f6f70076db52741480b/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.7.1.aar/178ad2feb4161138e52c8bdcd5f4a034/AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.7.1.aar/178ad2feb4161138e52c8bdcd5f4a034/AndroidManifest.xml:21:5-23:41
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/e08c2052135da11a771c611b347d7b5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/e08c2052135da11a771c611b347d7b5c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/1005a6067c45a8fae5f00648bc7e0047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/1005a6067c45a8fae5f00648bc7e0047/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7597ea1784166d9eb7293ce6a43e9a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7597ea1784166d9eb7293ce6a43e9a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/949a0b0a0621d21a85ab4d73db23da15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/949a0b0a0621d21a85ab4d73db23da15/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aae440ec9eb656a1cb12fe124c3d6943/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aae440ec9eb656a1cb12fe124c3d6943/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/5b280b5d285e03bd60116c423d541416/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/5b280b5d285e03bd60116c423d541416/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/45468a8651378feb6128602af7b55d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/45468a8651378feb6128602af7b55d5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/088a87c66e317eb4ad989552cd805a04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/088a87c66e317eb4ad989552cd805a04/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/ab989a47f212a41b1d0e2ad09165d063/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/ab989a47f212a41b1d0e2ad09165d063/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/485967c7d9fcbd7015d8283511f58672/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/485967c7d9fcbd7015d8283511f58672/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e097127acf9ef0da014ed695b38eda60/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e097127acf9ef0da014ed695b38eda60/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e336ae1fea55be163a1bead089afe909/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e336ae1fea55be163a1bead089afe909/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a79a835935def5360341247c6a409907/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a79a835935def5360341247c6a409907/AndroidManifest.xml:20:5-44
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		ADDED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/src/main/AndroidManifest.xml

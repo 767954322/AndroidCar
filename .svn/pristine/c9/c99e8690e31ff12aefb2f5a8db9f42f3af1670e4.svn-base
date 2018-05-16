@@ -1,0 +1,104 @@
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-share-wechat-simplify-6.9.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-sharetool-6.9.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-share-sina-simplify-6.9.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-debug-1.0.0.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-share-core-6.9.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-shareboard-widget-6.9.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-analytics-7.5.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-common-1.5.1.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/libs/umeng-share-QQ-simplify-6.9.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f45332289212e6d644262058d3cd512a/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/library-1.5.1.aar/5e9e4c46b2a615a54a0f41133a30a2e9/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/ca1fee53494bec51d2b8f4b6c7861f04/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/32f7b8fe9d9ed36f94ea0569b4b6229b/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/95856abfe5d192c71b0c65c37b64df2f/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.2.0/3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c/adapter-rxjava2-2.2.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/ef85a50fa9a9e0e58a5e7ca14a238c1f/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.3/c6a633c63607f09f77f424b5c52522a7607cedae/rxjava-2.1.3.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.trello/rxlifecycle/1.0/6a38e2cd80f46ecaf6553b2eb5a05eee6d472fdb/rxlifecycle-1.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.8.1/feab46062803513d6a8307c74b0084265855de1a/logging-interceptor-3.8.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.1/4d060ca3190df0eda4dc13415532a12e15ca5f11/okhttp-3.8.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/0ee495974895b8fd992002406e4c9a77/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/eafb1c036b1c777e22b44e82d896f929/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-java-0.8.4.aar/6205d3f70e073b480e4cd505cf52ed24/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/ijkplayer-armv7a-0.8.4.aar/b17de81abb8c4445cebb7c6bf13ff380/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/videocache-2.7.0.aar/1a48090297db4bd126d26061c57f5bc2/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-2.7.1.aar/f473f41d7431ba600ce84eb7b4a6a3b9/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-dash-2.7.1.aar/b0412fdca0f2a4f7f8c6154f1759baec/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-hls-2.7.1.aar/5dea5c7b15255504ee04ded7d256f172/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-smoothstreaming-2.7.1.aar/f489ab47e326cebe3960dbb477ba24d7/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-ui-2.7.1.aar/777e28e097a24f6f70076db52741480b/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/exoplayer-core-2.7.1.aar/178ad2feb4161138e52c8bdcd5f4a034/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/e08c2052135da11a771c611b347d7b5c/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/1005a6067c45a8fae5f00648bc7e0047/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/f7597ea1784166d9eb7293ce6a43e9a6/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/949a0b0a0621d21a85ab4d73db23da15/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/aae440ec9eb656a1cb12fe124c3d6943/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/5b280b5d285e03bd60116c423d541416/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/45468a8651378feb6128602af7b55d5e/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/088a87c66e317eb4ad989552cd805a04/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/ab989a47f212a41b1d0e2ad09165d063/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/63ff6380f5d4846c34282837c812458a/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.0/931532e953a477f876f2de18c2e7f16eee01078f/constraint-layout-solver-1.1.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.1/4e4cfa4adc74521d5966799fa5ab70b733552f68/rxjava-1.2.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/73acf43f10d44c05e9dd1d00264957f7/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.7.1/21e6054c134c7f5c435ab7635984f39c5375083e/disklrucache-4.7.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.7.1/796c0bf0a61141278c4bc32de2b92e6eb7fa8b1a/annotations-4.7.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-android/1.7.21/f4f6a07c00f3996d8db58c85a3d73377b40611eb/slf4j-android-1.7.21.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.1/1b1c911686eb40179219466e6a59b634b9d7a748/reactive-streams-1.0.1.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/485967c7d9fcbd7015d8283511f58672/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e097127acf9ef0da014ed695b38eda60/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e336ae1fea55be163a1bead089afe909/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a79a835935def5360341247c6a409907/jars/classes.jar(**.class)
+-injars /Users/gumenghao/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar(**.class)
+-injars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/build/intermediates/classes/debug(**.class)
+-outjars /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/build/intermediates/multi-dex/debug/componentClasses.jar
+
+-libraryjars /Users/gumenghao/Library/Android/sdk/build-tools/26.0.2/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/build/intermediates/multi-dex/debug/components.flags
+
+
+# Referenced at /Users/gumenghao/Documents/CodeSection/NewCode/AndroidTuwan/app/build/intermediates/manifests/full/debug/AndroidManifest.xml:18
+-keep class com.tuwan.android.MyApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}
