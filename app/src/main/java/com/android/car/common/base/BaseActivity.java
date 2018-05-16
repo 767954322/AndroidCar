@@ -48,15 +48,11 @@ public abstract class BaseActivity extends AppCompatActivity {
     //设置顶部状态栏
     private void initStatusBar() {
 
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-
-            getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.white), 0);
-
-        } else {
-
-            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.black), 0);
-        }
+        //SYSTEM_UI_FLAG_FULLSCREEN : 隐藏顶部导航栏
+        //SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR  白色顶部导航栏（图标和文字）
+        //SYSTEM_UI_FLAG_LIGHT_STATUS_BAR  黑色顶部导航栏（图标和文字）
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        StatusBarUtil.setColor(this, UIUtils.getColor(R.color.white), 0);
 
     }
 
