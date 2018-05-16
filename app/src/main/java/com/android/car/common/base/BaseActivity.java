@@ -56,7 +56,6 @@ public abstract class BaseActivity extends AppCompatActivity {
         } else {
 
             StatusBarUtil.setColor(this, UIUtils.getColor(R.color.black), 0);
-
         }
 
     }
