@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_55"
+    android:background="@android:color/transparent">
+
+
+    <RadioGroup
+        android:id="@+id/rg_home_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size_55"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_btn_first"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_first_select"
+            android:text="first"
+            android:textSize="@dimen/size_11" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_two"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_two_select"
+            android:text="two"
+            android:textSize="@dimen/size_11" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_three"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_three_select"
+            android:text="three"
+            android:textSize="@dimen/size_11" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_four"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_three_select"
+            android:text="four"
+            android:textSize="@dimen/size_11" />
+
+    </RadioGroup>
+
+</RelativeLayout>

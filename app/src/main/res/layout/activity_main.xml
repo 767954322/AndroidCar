@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuwan.android.home.ui.activity.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_bottom"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/bottom_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_55"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
