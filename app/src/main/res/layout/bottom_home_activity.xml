@@ -19,7 +19,7 @@
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
             android:drawableTop="@drawable/radio_first_select"
-            android:text="first"
+            android:text="首页"
             android:textSize="@dimen/size_11" />
 
         <RadioButton
@@ -28,7 +28,7 @@
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
             android:drawableTop="@drawable/radio_two_select"
-            android:text="two"
+            android:text="新闻"
             android:textSize="@dimen/size_11" />
 
         <RadioButton
@@ -37,7 +37,7 @@
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
             android:drawableTop="@drawable/radio_three_select"
-            android:text="three"
+            android:text="论坛"
             android:textSize="@dimen/size_11" />
 
         <RadioButton
@@ -46,7 +46,16 @@
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
             android:drawableTop="@drawable/radio_three_select"
-            android:text="four"
+            android:text="设置"
+            android:textSize="@dimen/size_11" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_five"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/radio_three_select"
+            android:text="我"
             android:textSize="@dimen/size_11" />
 
     </RadioGroup>

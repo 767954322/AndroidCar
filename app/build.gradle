@@ -5,7 +5,7 @@ android {
 
     compileSdkVersion rootProject.ext.androidCompileSdkVersion
     defaultConfig {
-        applicationId "com.tuwan.android"
+        applicationId "com.android.car"
         minSdkVersion rootProject.ext.androidMinSdkVersion
         targetSdkVersion rootProject.ext.androidTargetSdkVersion
         versionCode rootProject.ext.versionCode

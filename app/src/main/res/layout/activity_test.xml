@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.tuwan.android.home.ui.activity.MainActivity">
+    tools:context="com.android.car.home.ui.activity.MainActivity">
 
     <TextView
         android:id="@+id/tv_test_tital"
@@ -14,14 +14,14 @@
         android:layout_marginTop="30dp" />
 
 
-    <com.tuwan.android.common.view.RoundImageView
+    <com.android.car.common.view.RoundImageView
         android:id="@+id/iv_test_round"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_below="@+id/tv_test_tital"
         android:layout_margin="40dp" />
 
-    <com.tuwan.android.common.view.FilletImageView
+    <com.android.car.common.view.FilletImageView
         android:id="@+id/iv_test_fillet"
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -38,7 +38,7 @@
         android:layout_centerHorizontal="true"
         android:text="下载图片" />
 
-    <com.tuwan.android.common.videoplayer.CustomView.MyJZVideoPlayerStandard
+    <com.android.car.common.videoplayer.CustomView.MyJZVideoPlayerStandard
         android:id="@+id/jz_video"
         android:layout_width="match_parent"
         android:layout_height="200dp"

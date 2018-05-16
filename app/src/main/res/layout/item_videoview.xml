@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
-    <com.tuwan.android.common.videoplayer.JZVideoPlayerStandard
+    <com.android.car.common.videoplayer.JZVideoPlayerStandard
         android:id="@+id/videoplayer"
         android:layout_width="match_parent"
         android:layout_height="200dp" />
