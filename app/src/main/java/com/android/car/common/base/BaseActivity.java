@@ -51,11 +51,11 @@ public abstract class BaseActivity extends AppCompatActivity {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
 
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.status_bar_color), 0);
+            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.white), 0);
 
         } else {
 
-            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.status_bar_color), 0);
+            StatusBarUtil.setColor(this, UIUtils.getColor(R.color.black), 0);
 
         }
 
