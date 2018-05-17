@@ -1,19 +1,25 @@
 package com.android.car.home.ui.activity;
 
-import android.Manifest;
-import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 
 import com.android.car.R;
 
+import java.util.List;
+
+import android.Manifest;
+import android.os.Bundle;
+
+import java.util.ArrayList;
+
 import butterknife.BindView;
+
+import android.widget.RadioGroup;
+import android.support.v4.app.Fragment;
+import android.support.annotation.NonNull;
 
 import com.android.car.common.base.BaseActivity;
 import com.android.car.common.permission.MPermission;
+import com.android.car.common.view.NoScrollViewPager;
+import com.android.car.home.ui.adapter.HomePagerAdapter;
 import com.android.car.home.ui.fragment.FirstFragment;
 import com.android.car.home.ui.fragment.FiveFragment;
 import com.android.car.home.ui.fragment.FourFragment;
@@ -21,10 +27,12 @@ import com.android.car.home.ui.fragment.ThreeFragment;
 import com.android.car.home.ui.fragment.TwoFragment;
 
 
-public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedChangeListener {
+public class MainActivity
+        extends BaseActivity
+        implements RadioGroup.OnCheckedChangeListener {
 
-    @BindView(R.id.main_content)
-    RelativeLayout mainContent;
+    @BindView(R.id.svp_viewpager)
+    NoScrollViewPager svpViewpager;
     @BindView(R.id.rg_home_radio_group)
     RadioGroup rgHomeRadioGroup;
 
@@ -32,14 +40,14 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
             Manifest.permission.WRITE_EXTERNAL_STORAGE,
             Manifest.permission.READ_EXTERNAL_STORAGE};
 
+    private List<Fragment> mListFrags = new ArrayList<>();
     private final int BASIC_PERMISSION_REQUEST_CODE = 100;
-    private FragmentTransaction transaction;
+    private HomePagerAdapter mHomePagerAdapter;
     private FirstFragment mFirstFragment;
+    private TwoFragment mTwoFragment;
     private ThreeFragment mThreeFragment;
     private FourFragment mFourFragment;
     private FiveFragment mFiveFragment;
-    private TwoFragment mTwoFragment;
-    private Fragment mTagFragment;
 
     @Override
     protected int getLayoutResId() {
@@ -60,27 +68,31 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
     @Override
     protected void initData(Bundle savedInstanceState) {
 
-        initRadio();
+        initViewPager();
 
         requestBasicPermission();
 
     }
 
-    private void initRadio() {
+    private void initViewPager() {
 
-        if (null == mFirstFragment) {
+        mFirstFragment = new FirstFragment(getSupportFragmentManager());
+        mTwoFragment = new TwoFragment(getSupportFragmentManager());
+        mThreeFragment = new ThreeFragment(getSupportFragmentManager());
+        mFourFragment = new FourFragment(getSupportFragmentManager());
+        mFiveFragment = new FiveFragment(getSupportFragmentManager());
 
-            mFirstFragment = new FirstFragment(getSupportFragmentManager());
+        mListFrags.add(mFirstFragment);
+        mListFrags.add(mTwoFragment);
+        mListFrags.add(mThreeFragment);
+        mListFrags.add(mFourFragment);
+        mListFrags.add(mFiveFragment);
 
-        }
-
-        transaction = getSupportFragmentManager().beginTransaction();
-
-        transaction.add(R.id.main_content, mFirstFragment).commit();
-
+        mHomePagerAdapter = new HomePagerAdapter(getSupportFragmentManager(), mListFrags);
+        svpViewpager.setAdapter(mHomePagerAdapter);
+        svpViewpager.setCurrentItem(0);
+        svpViewpager.setOffscreenPageLimit(5);
         rgHomeRadioGroup.check(R.id.radio_btn_first);
-
-        mTagFragment = mFirstFragment;
 
     }
 
@@ -91,94 +103,25 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
             case R.id.radio_btn_first:
 
-                if (null == mFirstFragment) {
-
-                    mFirstFragment = new FirstFragment(getSupportFragmentManager());
-
-                }
-                if (mTagFragment != mFirstFragment) {
-
-                    mTagFragment = mFirstFragment;
-
-                    replaceFragment(mFirstFragment);
-
-                }
+                svpViewpager.setCurrentItem(0);
                 break;
             case R.id.radio_btn_two:
 
-                if (null == mTwoFragment) {
-
-                    mTwoFragment = new TwoFragment(getSupportFragmentManager());
-
-                }
-
-                if (mTagFragment != mTwoFragment) {
-
-                    mTagFragment = mTwoFragment;
-
-                    replaceFragment(mTwoFragment);
-
-                }
+                svpViewpager.setCurrentItem(1);
                 break;
             case R.id.radio_btn_three:
 
-                if (null == mThreeFragment) {
-
-                    mThreeFragment = new ThreeFragment(getSupportFragmentManager());
-
-                }
-
-                if (mTagFragment != mThreeFragment) {
-
-                    mTagFragment = mThreeFragment;
-
-                    replaceFragment(mThreeFragment);
-
-                }
+                svpViewpager.setCurrentItem(2);
                 break;
             case R.id.radio_btn_four:
 
-                if (null == mFourFragment) {
-
-                    mFourFragment = new FourFragment(getSupportFragmentManager());
-
-                }
-
-                if (mTagFragment != mFourFragment) {
-
-                    mTagFragment = mFourFragment;
-
-                    replaceFragment(mFourFragment);
-
-                }
+                svpViewpager.setCurrentItem(3);
                 break;
             case R.id.radio_btn_five:
 
-                if (null == mFiveFragment) {
-
-                    mFiveFragment = new FiveFragment(getSupportFragmentManager());
-
-                }
-
-                if (mTagFragment != mFiveFragment) {
-
-                    mTagFragment = mFiveFragment;
-
-                    replaceFragment(mFiveFragment);
-
-                }
+                svpViewpager.setCurrentItem(4);
                 break;
         }
-
-    }
-
-    public void replaceFragment(Fragment fragment) {
-
-        transaction = getSupportFragmentManager().beginTransaction();
-
-        transaction.replace(R.id.main_content, fragment);
-
-        transaction.commit();
 
     }
 
@@ -195,4 +138,6 @@ public class MainActivity extends BaseActivity implements RadioGroup.OnCheckedCh
 
     }
 
+
 }
+

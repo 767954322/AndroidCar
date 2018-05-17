@@ -5,13 +5,13 @@
     android:layout_height="match_parent"
     tools:context="com.android.car.home.ui.activity.MainActivity">
 
-    <RelativeLayout
-        android:id="@+id/main_content"
+    <com.android.car.common.view.NoScrollViewPager
+        android:id="@+id/svp_viewpager"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/include_bottom"
-        android:layout_weight="1"
-        android:orientation="vertical" />
+        android:overScrollMode="never"
+        android:layout_weight="1" />
 
     <include
         android:id="@+id/include_bottom"
