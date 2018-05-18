@@ -3,6 +3,7 @@ package com.android.car.home.ui.fragment;
 import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,6 +14,9 @@ import com.android.car.common.viewpagerscroll.ConvenientBanner;
 import com.android.car.common.viewpagerscroll.NetworkImageHolderView;
 import com.android.car.common.viewpagerscroll.holder.CBViewHolderCreator;
 import com.android.car.common.viewpagerscroll.listener.OnItemClickListener;
+import com.scwang.smartrefresh.layout.SmartRefreshLayout;
+import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
+import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +34,13 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener 
 
     @BindView(R.id.convenientBanner)
     ConvenientBanner mConvenientBanner;
+    @BindView(R.id.refreshLayout)
+    SmartRefreshLayout mRefreshLayout;
+    @BindView(R.id.rv_recyclerview)
+    RecyclerView rvRecyclerview;
+
+    private ClassicsFooter mClassicsFooter;
+
     private FragmentManager fragmentManager;
     private List<String> imageUrlList = new ArrayList<>();
 
@@ -65,6 +76,9 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener 
 
         setBannerData(imageUrlList);
 
+        mClassicsFooter = (ClassicsFooter) mRefreshLayout.getRefreshFooter();
+        mClassicsFooter.setSpinnerStyle(SpinnerStyle.Translate);
+        mRefreshLayout.setFooterHeight(50);
     }
 
     @Override
@@ -103,6 +117,5 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener 
                     }
                 });
     }
-
 
 }

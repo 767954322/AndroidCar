@@ -37,7 +37,7 @@ public class FiveFragment extends BaseFragment implements View.OnClickListener {
     protected void initListener() {
         super.initListener();
 
-//        btJumpTest.setOnClickListener(this);
+        btJumpTest.setOnClickListener(this);
 
     }
 
