@@ -39,8 +39,8 @@ public class ReflushActivity7 extends BaseActivity {
         mClassicsFooter = (ClassicsFooter) mRefreshLayout.getRefreshFooter();
         mClassicsHeader = (ClassicsHeader1) mRefreshLayout.getRefreshHeader();
         mClassicsFooter.setSpinnerStyle(SpinnerStyle.Translate);
-        mRefreshLayout.setHeaderHeight(55);
-        mRefreshLayout.setFooterHeight(55);
+        mRefreshLayout.setHeaderHeight(50);
+        mRefreshLayout.setFooterHeight(50);
         mRefreshLayout.setOnRefreshLoadMoreListener(new OnRefreshLoadMoreListener() {
             @Override
             public void onLoadMore(@NonNull RefreshLayout refreshLayout) {
