@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:overScrollMode="never">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/bt_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第一种：页面添加纯滚动模式" />
+
+        <Button
+            android:id="@+id/bt_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_one"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第二种：普通刷新加载(SmartRefreshLayout + scrollview)，刷新加载在布局底部" />
+
+        <Button
+            android:id="@+id/bt_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_two"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第三种：普通刷新加载(SmartRefreshLayout + scrollview)，刷新加载和布局同步" />
+
+        <Button
+            android:id="@+id/bt_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_three"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第四种:刷新加载的监听" />
+
+        <Button
+            android:id="@+id/bt_five"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_four"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第五种:自定义header" />
+
+        <Button
+            android:id="@+id/bt_six"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_five"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第六种" />
+
+        <Button
+            android:id="@+id/bt_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_six"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第七种" />
+
+        <Button
+            android:id="@+id/bt_eight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_seven"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第八种" />
+
+        <Button
+            android:id="@+id/bt_nine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_eight"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第九种" />
+
+        <Button
+            android:id="@+id/bt_ten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_nine"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第十种" />
+
+        <Button
+            android:id="@+id/bt_eleven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_ten"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第十一种" />
+
+        <Button
+            android:id="@+id/bt_twelve"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_eleven"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第十二种" />
+
+        <Button
+            android:id="@+id/bt_thirteen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_twelve"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/font_20"
+            android:layout_marginTop="@dimen/font_20"
+            android:gravity="center"
+            android:text="第十三种" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

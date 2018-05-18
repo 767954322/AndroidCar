@@ -24,6 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class TestActivity extends BaseActivity implements TestContract.View, View.OnClickListener {
 
@@ -41,6 +42,7 @@ public class TestActivity extends BaseActivity implements TestContract.View, Vie
 
         btJumpVideolist.setOnClickListener(this);
         btLoadImage.setOnClickListener(this);
+        btJumpReflush.setOnClickListener(this);
     }
 
     @Override
@@ -78,6 +80,12 @@ public class TestActivity extends BaseActivity implements TestContract.View, Vie
             case R.id.bt_load_image:
 
                 DownloadImageUtils.downloadImage(TestActivity.this, imageUrlList);
+
+                break;
+            case R.id.bt_jump_reflush:
+
+                Intent intent = new Intent(this, ReflushActivity.class);
+                startActivity(intent);
 
                 break;
 
@@ -129,6 +137,8 @@ public class TestActivity extends BaseActivity implements TestContract.View, Vie
     }
 
 
+    @BindView(R.id.bt_jump_reflush)
+    Button btJumpReflush;
     @BindView(R.id.tv_test_tital)
     TextView tvTestTital;
     @BindView(R.id.iv_test_round)
@@ -156,6 +166,5 @@ public class TestActivity extends BaseActivity implements TestContract.View, Vie
         imageUrlList.add("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3102711909,683345632&fm=27&gp=0.jpg");
         imageUrlList.add("http://img0.imgtn.bdimg.com/it/u=2851272418,293470202&fm=27&gp=0.jpg");
     }
-
 
 }
