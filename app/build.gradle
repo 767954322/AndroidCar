@@ -78,6 +78,7 @@ dependencies {
     implementation 'com.danikula:videocache:' + rootProject.ext.videocacheVerson
     implementation 'com.google.android.exoplayer:exoplayer:' + rootProject.ext.exoplayerVerson
 
+
     configurations.all {
         resolutionStrategy.force 'com.android.support:support-annotations:' + rootProject.ext.androidSupportLibVersion
     }
