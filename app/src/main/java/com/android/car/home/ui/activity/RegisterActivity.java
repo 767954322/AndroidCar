@@ -8,7 +8,6 @@ import com.android.car.R;
 import com.android.car.common.base.BaseTransparentActivity;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 
 /**
  * Created by gumenghao on 2018/5/18.
