@@ -2,9 +2,12 @@ package com.android.car.home.ui.activity;
 
 import android.os.Bundle;
 import android.view.View;
+
 import com.android.car.R;
+
 import android.widget.Button;
 import android.content.Intent;
+
 import com.android.car.common.base.BaseActivity;
 
 import butterknife.BindView;
@@ -28,20 +31,6 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
     Button btFive;
     @BindView(R.id.bt_six)
     Button btSix;
-    @BindView(R.id.bt_seven)
-    Button btSeven;
-    @BindView(R.id.bt_eight)
-    Button btEight;
-    @BindView(R.id.bt_nine)
-    Button btNine;
-    @BindView(R.id.bt_ten)
-    Button btTen;
-    @BindView(R.id.bt_eleven)
-    Button btEleven;
-    @BindView(R.id.bt_twelve)
-    Button btTwelve;
-    @BindView(R.id.bt_thirteen)
-    Button btThirteen;
 
 
     @Override
@@ -59,6 +48,7 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
         btThree.setOnClickListener(this);
         btFour.setOnClickListener(this);
         btFive.setOnClickListener(this);
+        btSix.setOnClickListener(this);
 
     }
 
@@ -95,6 +85,11 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
 
                 Intent intent5 = new Intent(this, ReflushActivity5.class);
                 startActivity(intent5);
+                break;
+            case R.id.bt_six:
+
+                Intent intent6 = new Intent(this, ReflushActivity6.class);
+                startActivity(intent6);
                 break;
         }
 
