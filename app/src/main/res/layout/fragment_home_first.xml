@@ -23,6 +23,29 @@
                 android:background="#eee"
                 app:canLoop="true" />
 
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/convenientBanner"
+                android:layout_marginLeft="@dimen/font_10"
+                android:layout_marginRight="@dimen/font_10"
+                android:layout_marginTop="@dimen/font_8"
+                android:background="@drawable/bg_edit"
+                android:drawableLeft="@drawable/test_search"
+                android:drawablePadding="@dimen/font_6"
+                android:gravity="center_vertical"
+                android:hint="发现奇趣 悦车生活"
+                android:lines="1"
+                android:maxLines="1"
+                android:paddingBottom="@dimen/font_5"
+                android:paddingLeft="@dimen/font_5"
+                android:paddingRight="@dimen/font_5"
+                android:paddingTop="@dimen/font_5"
+                android:singleLine="true"
+                android:textColorHint="@color/bg_8f8f8f"
+                android:textSize="@dimen/size_14" />
+
+
         </RelativeLayout>
 
 

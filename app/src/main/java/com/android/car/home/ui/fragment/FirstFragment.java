@@ -93,7 +93,7 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener 
                 return new NetworkImageHolderView();
             }
         }, list)
-                .setPageIndicator(new int[]{R.drawable.gallery_normal, R.drawable.gallery_select})
+                .setPageIndicator(new int[]{R.drawable.point, R.drawable.point_current})
                 .setPageIndicatorAlign(ConvenientBanner.PageIndicatorAlign.ALIGN_PARENT_RIGHT)
                 .setPageIndicatorMargin(0, 0, 50, 50)
                 .setOnItemClickListener(new OnItemClickListener() {
