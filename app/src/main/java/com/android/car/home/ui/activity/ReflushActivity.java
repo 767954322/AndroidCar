@@ -31,6 +31,8 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
     Button btFive;
     @BindView(R.id.bt_six)
     Button btSix;
+    @BindView(R.id.bt_seven)
+    Button btSeven;
 
 
     @Override
@@ -49,6 +51,7 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
         btFour.setOnClickListener(this);
         btFive.setOnClickListener(this);
         btSix.setOnClickListener(this);
+        btSeven.setOnClickListener(this);
 
     }
 
@@ -90,6 +93,11 @@ public class ReflushActivity extends BaseActivity implements View.OnClickListene
 
                 Intent intent6 = new Intent(this, ReflushActivity6.class);
                 startActivity(intent6);
+                break;
+            case R.id.bt_seven:
+
+                Intent intent7 = new Intent(this, ReflushActivity7.class);
+                startActivity(intent7);
                 break;
         }
 

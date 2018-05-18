@@ -68,6 +68,16 @@
             android:gravity="center"
             android:text="第六种：结合SnapHelper" />
 
+        <Button
+            android:id="@+id/bt_seven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_six"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_30"
+            android:gravity="center"
+            android:text="第七种：兔玩网" />
+
     </RelativeLayout>
 
 
