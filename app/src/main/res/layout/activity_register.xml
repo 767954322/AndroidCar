@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.car.home.ui.activity.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/register_back" />
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_50"
+        android:src="@drawable/logo" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_name"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_43"
+        android:layout_below="@+id/iv_logo">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/font_1"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20">
+
+            <ImageView
+                android:id="@+id/iv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/user" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/font_20"
+                android:layout_toRightOf="@+id/iv_name"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="姓名"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="@dimen/size_20" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:background="@color/bg_55a0ff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_43"
+        android:layout_below="@+id/rl_name">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/font_1"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20">
+
+            <ImageView
+                android:id="@+id/iv_phone_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/mobile" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/font_20"
+                android:layout_toRightOf="@+id/iv_phone_num"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="电话"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="@dimen/size_20" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:background="@color/bg_55a0ff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_43"
+        android:layout_below="@+id/rl_phone_num">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/font_1"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20">
+
+            <ImageView
+                android:id="@+id/iv_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/lock1" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/font_20"
+                android:layout_toRightOf="@+id/iv_pass"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="密码"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="@dimen/size_20" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:background="@color/bg_55a0ff" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_sure_pass"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_43"
+        android:layout_below="@+id/rl_pass">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/font_1"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20">
+
+            <ImageView
+                android:id="@+id/iv_sure_pass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:src="@drawable/lock2" />
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/font_20"
+                android:layout_toRightOf="@+id/iv_sure_pass"
+                android:background="@null"
+                android:cursorVisible="true"
+                android:gravity="center_vertical"
+                android:hint="确认密码"
+                android:lines="1"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textCursorDrawable="@drawable/cursor_color"
+                android:textSize="@dimen/size_20" />
+
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:background="@color/bg_55a0ff" />
+
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_35"
+        android:layout_below="@+id/rl_sure_pass"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginRight="@dimen/font_20"
+        android:layout_marginTop="@dimen/font_28"
+        android:background="@drawable/bg_edit_register"
+        android:text="注册"
+        android:textColor="@color/bg_509efd"
+        android:textSize="@dimen/size_19" />
+
+</RelativeLayout>

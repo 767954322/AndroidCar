@@ -43,6 +43,7 @@
                 android:paddingTop="@dimen/font_5"
                 android:singleLine="true"
                 android:textColorHint="@color/bg_8f8f8f"
+                android:textCursorDrawable="@drawable/cursor_color"
                 android:textSize="@dimen/size_14" />
 
 

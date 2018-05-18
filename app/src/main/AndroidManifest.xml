@@ -19,10 +19,11 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <activity
-            android:name=".home.ui.activity.MainActivity"
+            android:name=".home.ui.activity.LoginActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1"
             android:windowSoftInputMode="adjustPan|stateHidden">
 
             <intent-filter>
@@ -31,6 +32,17 @@
             </intent-filter>
 
         </activity>
+
+        <activity
+            android:name=".home.ui.activity.RegisterActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.activity.MainActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:windowSoftInputMode="adjustPan|stateHidden"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".home.ui.activity.TestVideoListActivity"

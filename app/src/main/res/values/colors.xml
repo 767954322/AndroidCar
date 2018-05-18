@@ -78,6 +78,9 @@
     <color name="bg_e6e6e6">#e6e6e6</color>
     <color name="bg_d7ecfe">#d7ecfe</color>
     <color name="bg_3f91ea">#3f91ea</color>
+    <color name="bg_55a0ff">#55a0ff</color>
+    <color name="bg_509efd">#509efd</color>
+    <color name="bg_a4caed">#a4caed</color>
 
 
     <color name="view_line">#d6d6d6</color>

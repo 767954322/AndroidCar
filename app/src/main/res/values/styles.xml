@@ -15,6 +15,17 @@
         <item name="colorAccent">@color/transparent</item>
     </style>
 
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="AppTheme.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- 将splash图片设置在这，这样这张图片取代白屏 -->
+        <item name="android:windowBackground">@drawable/starting</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <!-- 自定义Dialog -->
     <style name="CommonDialog" parent="@android:style/Theme.Dialog">
         <item name="android:windowFrame">@null</item>
