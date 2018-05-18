@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_tital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/font_15">
+
+        <com.android.car.common.view.RoundImageView
+            android:id="@+id/riv_header"
+            android:layout_width="@dimen/font_50"
+            android:layout_height="@dimen/font_50"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_13"
+            android:src="@drawable/tx" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_5"
+            android:layout_toRightOf="@+id/riv_header"
+            android:text="时间的光"
+            android:textColor="@color/bg_999999"
+            android:textSize="@dimen/size_15" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_tital"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/font_13"
+        android:layout_marginRight="@dimen/font_13"
+        android:layout_marginTop="@dimen/font_5"
+        android:ellipsize="end"
+        android:lines="1"
+        android:singleLine="true"
+        android:text="折中的选择 静态体验江西谁都会是多久静态体验江西谁都会是多久"
+        android:textColor="@color/bg_999999"
+        android:textSize="@dimen/size_15" />
+
+    <RelativeLayout
+        android:id="@+id/rl_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_description"
+        android:layout_marginLeft="@dimen/font_13"
+        android:layout_marginRight="@dimen/font_13"
+        android:layout_marginTop="@dimen/font_10">
+
+        <ImageView
+            android:layout_width="@dimen/font_100"
+            android:layout_height="wrap_content"
+            android:src="@drawable/car2_01" />
+
+        <ImageView
+            android:layout_width="@dimen/font_100"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/car2_02" />
+
+        <ImageView
+            android:layout_width="@dimen/font_100"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/car2_03" />
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_5"
+        android:layout_below="@+id/rl_pic"
+        android:layout_marginLeft="@dimen/font_13"
+        android:layout_marginRight="@dimen/font_13"
+        android:background="@color/view_line" />
+
+</RelativeLayout>
