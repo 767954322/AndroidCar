@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/pic_yes" android:state_checked="true" />
-    <item android:drawable="@drawable/pic_no" android:state_checked="false" />
+    <item android:drawable="@drawable/setting_current" android:state_checked="true" />
+    <item android:drawable="@drawable/setting" android:state_checked="false" />
 </selector>

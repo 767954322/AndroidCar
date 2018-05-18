@@ -4,12 +4,19 @@
     android:layout_height="@dimen/size_55"
     android:background="@android:color/transparent">
 
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/black" />
 
     <RadioGroup
         android:id="@+id/rg_home_radio_group"
-        android:layout_width="fill_parent"
-        android:layout_height="@dimen/size_55"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_alignParentBottom="true"
+        android:layout_below="@+id/view_line"
         android:background="@color/white"
         android:orientation="horizontal">
 
@@ -45,7 +52,7 @@
             style="@style/main_tab_bottom"
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
-            android:drawableTop="@drawable/radio_three_select"
+            android:drawableTop="@drawable/radio_four_select"
             android:text="设置"
             android:textSize="@dimen/size_11" />
 
@@ -54,7 +61,7 @@
             style="@style/main_tab_bottom"
             android:layout_marginTop="@dimen/size_6"
             android:checked="true"
-            android:drawableTop="@drawable/radio_three_select"
+            android:drawableTop="@drawable/radio_five_select"
             android:text="我"
             android:textSize="@dimen/size_11" />
 
