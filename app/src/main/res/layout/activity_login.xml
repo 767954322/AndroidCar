@@ -135,7 +135,7 @@
         android:layout_below="@+id/rl_pass"
         android:layout_marginLeft="@dimen/font_20"
         android:layout_marginRight="@dimen/font_20"
-        android:layout_marginTop="@dimen/font_28"
+        android:layout_marginTop="@dimen/font_32"
         android:background="@drawable/bg_edit_register"
         android:text="登陆"
         android:textColor="@color/bg_509efd"
@@ -170,11 +170,14 @@
 
     <TextView
         android:id="@+id/tv_go_register"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/rl_forget_pass"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/size_30"
+        android:layout_marginTop="@dimen/font_20"
+        android:gravity="center"
+        android:paddingBottom="@dimen/font_15"
+        android:paddingTop="@dimen/font_15"
         android:text="没有账号？快速注册"
         android:textColor="@color/bg_509efd"
         android:textSize="@dimen/size_15" />
