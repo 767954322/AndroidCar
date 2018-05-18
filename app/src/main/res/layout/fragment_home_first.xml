@@ -23,7 +23,7 @@
                 android:background="#eee"
                 app:canLoop="true" />
 
-            <EditText
+            <com.android.car.common.view.ClearEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/convenientBanner"
