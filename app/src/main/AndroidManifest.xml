@@ -41,6 +41,31 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".home.ui.activity.ReflushActivity1"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.activity.ReflushActivity2"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.activity.ReflushActivity3"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.activity.ReflushActivity4"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".home.ui.activity.ReflushActivity5"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+
         //友盟新浪
         <activity
             android:name="com.umeng.socialize.media.WBShareCallBackActivity"
