@@ -55,8 +55,8 @@ public class ReflushActivity6 extends BaseActivity {
         mClassicsFooter = (ClassicsFooter) mRefreshLayout.getRefreshFooter();
         mClassicsHeader.setSpinnerStyle(SpinnerStyle.Translate);
         mClassicsFooter.setSpinnerStyle(SpinnerStyle.Translate);
-        mRefreshLayout.setHeaderHeight(40);
-        mRefreshLayout.setFooterHeight(40);
+        mRefreshLayout.setHeaderHeight(50);
+        mRefreshLayout.setFooterHeight(50);
 
         rlRecyclerview.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));
         rlRecyclerview.setItemAnimator(new DefaultItemAnimator());

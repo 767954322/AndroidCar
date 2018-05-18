@@ -43,4 +43,5 @@ ext {
     ijkplayerVerson = '0.8.4'
     videocacheVerson = '2.7.0'
     exoplayerVerson = '2.7.1'
+    smartRefreshLayoutVerson = '1.1.0-alpha-1'
 }
