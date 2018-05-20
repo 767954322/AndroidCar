@@ -33,7 +33,7 @@
 
         <activity
             android:name=".home.ui.activity.RegisterActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"/>
+            android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <activity
             android:name=".home.ui.activity.MainActivity"
@@ -46,7 +46,7 @@
 
         <activity
             android:name=".home.ui.activity.TestActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"/>
+            android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <activity
             android:name=".home.ui.activity.ReflushActivity"
@@ -58,7 +58,7 @@
 
         <activity
             android:name=".home.ui.activity.ReflushActivity2"
-            android:configChanges="orientation|screenSize|keyboardHidden"/>
+            android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <activity
             android:name=".home.ui.activity.ReflushActivity3"

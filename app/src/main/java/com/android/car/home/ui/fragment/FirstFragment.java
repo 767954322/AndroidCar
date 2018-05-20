@@ -22,11 +22,16 @@ import com.android.car.common.viewpagerscroll.ConvenientBanner;
 import com.android.car.common.viewpagerscroll.NetworkImageHolderView;
 import com.android.car.common.viewpagerscroll.holder.CBViewHolderCreator;
 import com.android.car.common.viewpagerscroll.listener.OnItemClickListener;
+import com.android.car.home.ui.ItemViewDelagate.TestItemViewDelagate;
 import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
+import com.zhy.adapter.recyclerview.CommonAdapter;
+import com.zhy.adapter.recyclerview.MultiItemTypeAdapter;
+import com.zhy.adapter.recyclerview.base.ViewHolder;
+import com.zhy.adapter.recyclerview.wrapper.HeaderAndFooterWrapper;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,19 +47,21 @@ import butterknife.Unbinder;
 @SuppressLint("ValidFragment")
 public class FirstFragment extends BaseFragment implements View.OnClickListener, OnLoadMoreListener {
 
-    @BindView(R.id.convenientBanner)
-    ConvenientBanner mConvenientBanner;
+
     @BindView(R.id.refreshLayout)
     SmartRefreshLayout mRefreshLayout;
     @BindView(R.id.rv_recyclerview)
     RecyclerView rvRecyclerview;
 
+    private ConvenientBanner mConvenientBanner;
     private ClassicsFooter mClassicsFooter;
 
     private FragmentManager fragmentManager;
     private List<String> imageUrlList = new ArrayList<>();
     private List<String> dataList = new ArrayList<>();
-    private MultiItemCommonAdapter<String> mAdapter;
+    private MultiItemTypeAdapter mAdapter;
+    private View mHeaderView;
+    private HeaderAndFooterWrapper mHeaderAndFooterWrapper;
 
     {
         imageUrlList.add("http://pic4.nipic.com/20091113/2847083_105626034638_2.jpg");
@@ -80,6 +87,15 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener,
     }
 
     @Override
+    protected void initView() {
+        super.initView();
+
+        mHeaderView = LayoutInflater.from(activity).inflate(R.layout.header_fragment_home_first, null);
+        mConvenientBanner = mHeaderView.findViewById(R.id.convenientBanner);
+
+    }
+
+    @Override
     protected void initListener() {
         super.initListener();
 
@@ -96,28 +112,25 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener,
         mClassicsFooter.setSpinnerStyle(SpinnerStyle.Translate);
         mRefreshLayout.setFooterHeight(50);
 
-        MultiItemTypeSupport<String> support = new MultiItemTypeSupport<String>() {
-            @Override
-            public int getLayoutId(int itemType) {
-                return R.layout.item_shouye;
-            }
+        //简单的单布局
+//        mAdapter = new CommonAdapter<String>(activity, R.layout.item_shouye, dataList) {
+//            @Override
+//            protected void convert(ViewHolder holder, String s, int position) {
+//
+//            }
+//        };
 
-            @Override
-            public int getItemViewType(int position, String s) {
-                return 0;
-            }
-        };
-        mAdapter = new MultiItemCommonAdapter<String>(activity, dataList, support) {
+        //简单的多布局
+        mAdapter = new MultiItemTypeAdapter(activity, dataList);
+        mAdapter.addItemViewDelegate(new TestItemViewDelagate());
 
-            @Override
-            public void convert(BaseViewHolder holder, int position) {
-
-            }
-        };
-        rvRecyclerview.setLayoutManager(new LinearLayoutManager(activity));
+        mHeaderAndFooterWrapper = new HeaderAndFooterWrapper(mAdapter);
+        mHeaderAndFooterWrapper.addHeaderView(mHeaderView);
+        LinearLayoutManager linearLayoutManager = new LinearLayoutManager(activity);
+        rvRecyclerview.setLayoutManager(linearLayoutManager);
         rvRecyclerview.setItemAnimator(new DefaultItemAnimator());
         rvRecyclerview.setNestedScrollingEnabled(false);
-        rvRecyclerview.setAdapter(mAdapter);
+        rvRecyclerview.setAdapter(mHeaderAndFooterWrapper);
     }
 
     @Override
@@ -172,7 +185,7 @@ public class FirstFragment extends BaseFragment implements View.OnClickListener,
             for (int i = 0; i < 10; i++)
                 dataList.add("");
             mRefreshLayout.finishLoadMore();
-            mAdapter.notifyDataSetChanged();
+            mHeaderAndFooterWrapper.notifyDataSetChanged();
 
         }
     };

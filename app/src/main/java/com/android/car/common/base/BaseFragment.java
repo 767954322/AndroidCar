@@ -42,6 +42,7 @@ public abstract class BaseFragment extends Fragment {
             rootView = inflater.inflate(getLayoutResId(), container, false);
             initButterKnife();
             initExtraBundle();
+            initView();
             initData(savedInstanceState);
             initListener();
         }
@@ -66,7 +67,12 @@ public abstract class BaseFragment extends Fragment {
     protected void initExtraBundle() {
 
     }
+    /**
+     * 找对象
+     */
+    protected void initView() {
 
+    }
     /**
      * 初始化数据操作
      *

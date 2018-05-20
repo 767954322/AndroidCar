@@ -84,6 +84,7 @@ dependencies {
     }
     //刷新控件
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:' + rootProject.ext.smartRefreshLayoutVerson
+    implementation 'com.zhy:base-rvadapter:3.0.3'
     //cardview
     implementation 'com.android.support:cardview-v7:' + rootProject.ext.androidSupportLibVersion
 
