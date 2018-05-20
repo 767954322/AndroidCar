@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/video"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_15"
             android:text="汽车视频"
@@ -56,10 +56,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/contrast"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_15"
-            android:text="汽车视频"
+            android:text="配置对比"
             android:textSize="@dimen/size_15" />
 
         <TextView
@@ -67,10 +67,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/talking"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_15"
-            android:text="汽车视频"
+            android:text="汽车论坛"
             android:textSize="@dimen/size_15" />
 
         <TextView
@@ -78,10 +78,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/info"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_15"
-            android:text="汽车视频"
+            android:text="汽车信息"
             android:textSize="@dimen/size_15" />
 
     </LinearLayout>
@@ -98,10 +98,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/member"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_20"
-            android:text="汽车视频"
+            android:text="会员中心"
             android:textSize="@dimen/size_15" />
 
         <TextView
@@ -109,10 +109,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/codeimg"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_20"
-            android:text="汽车视频"
+            android:text="扫码挪车"
             android:textSize="@dimen/size_15" />
 
         <TextView
@@ -120,10 +120,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/about"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_20"
-            android:text="汽车视频"
+            android:text="汽车相关"
             android:textSize="@dimen/size_15" />
 
         <TextView
@@ -131,10 +131,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:drawablePadding="@dimen/font_10"
-            android:drawableTop="@drawable/setting_current"
+            android:drawableTop="@drawable/othernews"
             android:gravity="center_horizontal"
             android:paddingTop="@dimen/font_20"
-            android:text="汽车视频"
+            android:text="其他新闻"
             android:textSize="@dimen/size_15" />
 
     </LinearLayout>
