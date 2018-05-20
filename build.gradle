@@ -44,4 +44,5 @@ ext {
     videocacheVerson = '2.7.0'
     exoplayerVerson = '2.7.1'
     smartRefreshLayoutVerson = '1.1.0-alpha-1'
+    rvadapterVerson = '3.0.3'
 }
