@@ -19,7 +19,7 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <activity
-            android:name=".home.ui.activity.LoginActivity"
+            android:name=".home.ui.activity.AdvertisementActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:theme="@style/AppTheme1"
             android:windowSoftInputMode="adjustPan|stateHidden">
@@ -30,6 +30,11 @@
             </intent-filter>
 
         </activity>
+
+
+        <activity
+            android:name=".home.ui.activity.LoginActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" />
 
         <activity
             android:name=".home.ui.activity.RegisterActivity"
