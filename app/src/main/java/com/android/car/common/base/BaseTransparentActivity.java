@@ -45,7 +45,7 @@ public abstract class BaseTransparentActivity extends AppCompatActivity {
         //SYSTEM_UI_FLAG_FULLSCREEN : 隐藏顶部导航栏
         //SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR  白色顶部导航栏（图标和文字）
         //SYSTEM_UI_FLAG_LIGHT_STATUS_BAR  黑色顶部导航栏（图标和文字）
-        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR);
         StatusBarUtil.setTransparent(this);
 
     }
